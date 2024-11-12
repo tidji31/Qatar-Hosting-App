@@ -929,7 +929,7 @@ footer p {
 
 /* Style the icons */
 
-.cover .fa-facebook, .fa-square-x-twitter, .instagram, .whatsapp{
+.cover .fa-facebook-f, .fa-x-twitter, .fa-instagram, .fa-whatsapp{
     color: whitesmoke;
     margin-top: 5px;
     transition: all 0.5s ease;
@@ -955,13 +955,13 @@ footer p {
 
 /*twitter*/
 
-.cover ul li:hover.fa-square-x-twitter{
+.cover ul li:hover.fa-x-twitter{
     border: 3px solid #00aced;
     box-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
 }
 
-.cover ul li:hover .fa-square-x-twitter {
+.cover ul li:hover .fa-x-twitter {
     color: #00aced;
     text-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
