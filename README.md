@@ -34,18 +34,15 @@ Credits :
 
 Usage :
 -------
-1-Clone or dowbload the project.
+1- Clone or dowbload the project.
 
-2-If you have Docker already set up, you can run this project using NGINX image in one line:
+2- docker build -t qatar-hosting-template .
 
-PowerShell:
+3- docker run -p 8080:80 qatar-hosting-template
 
-``` docker run -it --rm -d -p 80:80 --name Qatar-Hosting -v ${PWD}:/usr/share/nginx/html nginx ```
+OR:
 
-Windows Command Line (cmd):
+1- docker pull tidji31/qatar-hosting-template:latest
 
-``` docker run -it --rm -d -p 80:80 --name Qatar-Hosting -v %cd%:/usr/share/nginx/html nginx ```
+2- docker run -p 8080:80 tidji31/qatar-hosting-template
 
-On Linux:
-
-``` docker run -it --rm -d -p 80:80 --name Qatar-Hosting -v $(pwd):/usr/share/nginx/html nginx ```
