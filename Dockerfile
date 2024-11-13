@@ -1,5 +1,5 @@
-# Use the official Nginx image as a base
-FROM nginx:latest
+# Use the official Nginx Alpine image as a base
+FROM nginx:alpine
 
 # Copy the HTML, CSS, and JavaScript files into the Nginx directory
 COPY . /usr/share/nginx/html
